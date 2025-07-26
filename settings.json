@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ga4-analytics": {
+      "command": "python",
+      "args": ["-m", "ga4_mcp_server"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\Users\\ユーザー名\\ga4-mcp-key.json",
+        "GA4_PROPERTY_ID": "123456789"
+      }
+    }
+  }
+}
